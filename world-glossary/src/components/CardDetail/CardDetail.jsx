@@ -26,7 +26,7 @@ const CardDetail = () => {
   const { name, population, region, capital, flags, cca3 } = country;
 
   return (
-    <div>
+    <div className="card-detail">
       <div onClick={() => navigate(-1)}>Back</div>
       <div>
         <img src={flags.png} alt={cca3} />

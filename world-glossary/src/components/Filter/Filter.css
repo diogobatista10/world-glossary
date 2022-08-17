@@ -1,0 +1,70 @@
+.filter {
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+select,
+input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  width: 100%;
+}
+
+.filter-select,
+.filter-input {
+  height: 5vh;
+  border-radius: 5px;
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+.filter-select {
+  width: 10vw;
+}
+
+.filter-input {
+  width: 30vw;
+}
+
+option {
+  text-transform: capitalize;
+}
+
+.filter-select-option .theme-dark {
+  background-color: var(--dark-theme-element-bg-color);
+  color: var(--dark-theme-text-color);
+  box-shadow: 0 3px 15px var(--theme-shadow-color);
+}
+
+.filter-select-option .theme-light {
+  background-color: var(--light-theme-element-color);
+  color: var(--light-theme-text-color);
+  box-shadow: 0 3px 15px var(--theme-shadow-color);
+}
+
+input::placeholder .theme-dark {
+  color: var(--dark-theme-text-color);
+}
+
+input::placeholder .theme-light {
+  color: var(--light-theme-text-color);
+}
+
+.theme-dark {
+  background-color: var(--dark-theme-element-bg-color);
+  color: var(--dark-theme-text-color);
+  box-shadow: 0 3px 15px var(--theme-shadow-color);
+}
+
+.theme-light {
+  background-color: var(--light-theme-element-color);
+  color: var(--light-theme-text-color);
+  box-shadow: 0 3px 15px var(--theme-shadow-color);
+}

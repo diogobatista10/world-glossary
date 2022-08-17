@@ -1,0 +1,27 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.theme-dark {
+  background-color: var(--dark-theme-bg-color);
+  color: var(--dark-theme-text-color);
+}
+
+.theme-light {
+  background-color: var(--light-theme-bg-color);
+  color: var(--light-theme-text-color);
+}
+
+.app-body {
+  padding: 0 80px;
+}
+
+.countries {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+}
