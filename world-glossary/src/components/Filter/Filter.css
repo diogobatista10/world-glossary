@@ -9,6 +9,17 @@
   align-items: center;
 }
 
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search {
+  width: 20px;
+  margin-left: 10px;
+}
+
 select,
 input {
   border: none;
@@ -37,33 +48,21 @@ option {
   text-transform: capitalize;
 }
 
-.filter-select-option .theme-dark {
+input::placeholder .f-theme-dark {
+  color: var(--dark-theme-text-color);
+}
+
+input::placeholder .f-theme-light {
+  color: var(--light-theme-text-color);
+}
+
+.f-theme-dark {
   background-color: var(--dark-theme-element-bg-color);
   color: var(--dark-theme-text-color);
   box-shadow: 0 3px 15px var(--theme-shadow-color);
 }
 
-.filter-select-option .theme-light {
-  background-color: var(--light-theme-element-color);
-  color: var(--light-theme-text-color);
-  box-shadow: 0 3px 15px var(--theme-shadow-color);
-}
-
-input::placeholder .theme-dark {
-  color: var(--dark-theme-text-color);
-}
-
-input::placeholder .theme-light {
-  color: var(--light-theme-text-color);
-}
-
-.theme-dark {
-  background-color: var(--dark-theme-element-bg-color);
-  color: var(--dark-theme-text-color);
-  box-shadow: 0 3px 15px var(--theme-shadow-color);
-}
-
-.theme-light {
+.f-theme-light {
   background-color: var(--light-theme-element-color);
   color: var(--light-theme-text-color);
   box-shadow: 0 3px 15px var(--theme-shadow-color);

@@ -1,17 +1,14 @@
 .header {
   padding: 30px 80px;
-  width: 100vw;
 }
 
-.theme-dark {
+.h-theme-dark {
   background-color: var(--dark-theme-element-bg-color);
-  color: var(--dark-theme-text-color);
   box-shadow: 0 3px 15px var(--theme-shadow-color);
 }
 
-.theme-light {
+.h-theme-light {
   background-color: var(--light-theme-element-color);
-  color: var(--light-theme-text-color);
   box-shadow: 0 3px 15px var(--theme-shadow-color);
 }
 

@@ -1,0 +1,83 @@
+.card-detail {
+  font-size: 16px;
+  padding: 80px 0;
+}
+
+.card-detail-button {
+  padding: 10px;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+
+.arrow {
+  height: 100%;
+}
+
+.h4 {
+  font-weight: 300;
+}
+
+.card-detail-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-detail-image-container {
+  height: 40vh;
+  width: 40vw;
+  box-shadow: 15px 15px 15px var(--theme-shadow-color);
+}
+
+.card-detail-image {
+  width: 100%;
+  height: 100%;
+}
+
+.card-detail-info {
+  display: flex;
+  margin-left: 200px;
+  justify-content: space-between;
+  flex: 2;
+  flex-direction: column;
+}
+
+.card-detail-name {
+  margin-bottom: 40px;
+}
+
+.card-detail-sub-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.cd-theme-dark {
+  background-color: var(--dark-theme-element-bg-color);
+  box-shadow: 0 3px 15px var(--theme-shadow-color);
+  color: var(--dark-theme-text-color);
+}
+
+.cd-theme-light {
+  background-color: var(--light-theme-element-color);
+  box-shadow: 0 3px 15px var(--theme-shadow-color);
+  color: var(--light-theme-text-color);
+}
+
+.card-detail-borders {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-detail-link {
+  padding: 5px 20px;
+  text-decoration: none;
+  color: none;
+}

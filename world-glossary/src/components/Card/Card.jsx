@@ -6,7 +6,7 @@ import "./Card.css";
 const Card = ({ country, theme }) => {
   const { name, population, region, capital, flags, cca3 } = country;
   return (
-    <div key={cca3} className={`card theme-${theme}`}>
+    <div key={cca3} className={`card ca-theme-${theme}`}>
       <Link to={`/countries/${name?.common}`} className="card-image-container">
         <img className="card-image" src={flags.png} alt={cca3} />
       </Link>

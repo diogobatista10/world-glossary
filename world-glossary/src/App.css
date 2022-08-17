@@ -1,9 +1,6 @@
 .app {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
-  overflow-y: scroll;
 }
 
 .theme-dark {
@@ -18,10 +15,4 @@
 
 .app-body {
   padding: 0 80px;
-}
-
-.countries {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 80px;
 }

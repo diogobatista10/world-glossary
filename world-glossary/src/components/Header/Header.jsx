@@ -6,7 +6,7 @@ import "./Header.css";
 
 const Header = ({ theme, onClick }) => {
   return (
-    <div className={`header theme-${theme}`}>
+    <div className={`header h-theme-${theme}`}>
       <div className="header-container">
         <h2 className="header-title">Where is the world?</h2>
         <div className="header-toggle-button" onClick={onClick}>

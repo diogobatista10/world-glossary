@@ -7,25 +7,14 @@
   overflow: hidden;
 }
 
-.theme-dark {
+.ca-theme-dark {
   background-color: var(--dark-theme-element-bg-color);
-  color: var(--dark-theme-text-color);
   box-shadow: 0 3px 15px var(--theme-shadow-color);
 }
 
-.theme-light {
+.ca-theme-light {
   background-color: var(--light-theme-element-color);
-  color: var(--light-theme-text-color);
   box-shadow: 0 3px 15px var(--theme-shadow-color);
-}
-
-h3 {
-  margin: 20px 0 10px;
-  font-weight: 700;
-}
-
-span {
-  font-weight: 600;
 }
 
 .card-image-container {
