@@ -1,0 +1,28 @@
+:root {
+  --dark-theme-bg-color: hsl(207, 26%, 17%);
+  --dark-theme-element-bg-color: hsl(209, 23%, 22%);
+  --dark-theme-text-color: #ffffff;
+  --dark-theme-shadow-color: rgba(255, 255, 255, 0.2);
+  --light-theme-bg-color: hsl(0, 0%, 98%);
+  --light-theme-text-color: hsl(200, 15%, 8%);
+  --light-theme-element-color: #ffffff;
+  --light-theme-shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: var(--light-theme-bg-color);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.homepage {
+  font-size: 14px;
+}
+
+.detail-page {
+  font-size: 16px;
+}
