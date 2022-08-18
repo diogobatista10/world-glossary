@@ -47,13 +47,3 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
 5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
 6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
-
-## Sharing your solution
-
-Send the github project link to developer@load.digital with the subject: LOAD Frontend Challenge - Your Name
-
-## Giving feedback
-
-Feedback is always welcome, so if you have any to give on this challenge please email developer[at]load[dot]digital.
-
-**Have fun building!** 🚀
