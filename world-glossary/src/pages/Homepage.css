@@ -3,3 +3,10 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 80px;
 }
+
+@media (min-width: 375px) {
+  .countries {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
